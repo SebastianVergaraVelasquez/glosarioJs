@@ -33,3 +33,14 @@ console.log(saludo.concat(" ").concat(nombre).concat("Concatenar con concat, sol
     //concatenar con backticks
 
         console.log(`Hola ${nombre} desde concatenar con backticks`)
+
+//Operadores lógicos
+
+a == b
+a != b
+a === b //tipo de dato y mismo valor
+a !== b
+a > b
+a < b
+a >= b
+a <= b
