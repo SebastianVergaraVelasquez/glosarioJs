@@ -36,11 +36,23 @@ console.log(saludo.concat(" ").concat(nombre).concat("Concatenar con concat, sol
 
 //Operadores lógicos
 
-a == b
-a != b
-a === b //tipo de dato y mismo valor
-a !== b
-a > b
-a < b
-a >= b
-a <= b
+// a == b
+// a != b
+// a === b //tipo de dato y mismo valor
+// a !== b
+// a > b
+// a < b
+// a >= b
+// a <= b
+
+//condicionales
+
+if (nombre == "java") {
+    console.log("lol")
+}
+else if (nombre == "sol"){
+    console.log("xd")
+}
+else{
+    console.log("uwu")
+}
