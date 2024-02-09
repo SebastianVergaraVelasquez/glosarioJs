@@ -20,7 +20,7 @@ var cargo;
 //concatenacion
 
 nombre = "Java"
-saludo = "Hola"
+let saludo = "Hola"
 
 frase = saludo +" "+ nombre
 console.log(frase)
@@ -56,3 +56,17 @@ else if (nombre == "sol"){
 else{
     console.log("uwu")
 }
+
+//Arrays
+
+let arreglo = [1,2,3,4]
+
+//objetos
+
+let estudiante = {
+    id: "1",
+    nombreEstudiante: "Carlos",
+    edad: 25,
+}
+
+console.log(estudiante[nombreEstudiante])
