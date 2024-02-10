@@ -1,14 +1,15 @@
+
 // Tipos de datos
 
-string = "";
-numero = 25;
-bool = true;
+// string = "";
+// numero = 25;
+// bool = true;
 
 // variables
 
-const edad = 26; //Const debe declararse en el momento que se inicializa
-let nombre;
-var cargo;
+// const edad = 26; //Const debe declararse en el momento que se inicializa
+// let nombre;
+// var cargo;
 
 //otros valores: undefined, null, NaN
 
@@ -19,20 +20,20 @@ var cargo;
 
 //concatenacion
 
-nombre = "Java"
-let saludo = "Hola"
+// nombre = "Java"
+// let saludo = "Hola"
 
-frase = saludo +" "+ nombre
-console.log(frase)
-console.log(""+numero+edad)
+// frase = saludo +" "+ nombre
+// console.log(frase)
+// console.log(""+numero+edad)
 
 //Si se agrega un string vacío a la suma de dos numeros, los toma como string
 
-console.log(saludo.concat(" ").concat(nombre).concat("Concatenar con concat, solo es para strings"))
+// console.log(saludo.concat(" ").concat(nombre).concat("Concatenar con concat, solo es para strings"))
 
-    //concatenar con backticks
+//     //concatenar con backticks
 
-        console.log(`Hola ${nombre} desde concatenar con backticks`)
+//         console.log(`Hola ${nombre} desde concatenar con backticks`)
 
 //Operadores lógicos
 
@@ -47,26 +48,68 @@ console.log(saludo.concat(" ").concat(nombre).concat("Concatenar con concat, sol
 
 //condicionales
 
-if (nombre == "java") {
-    console.log("lol")
-}
-else if (nombre == "sol"){
-    console.log("xd")
-}
-else{
-    console.log("uwu")
-}
+// if (nombre == "java") {
+//     console.log("lol")
+// }
+// else if (nombre == "sol"){
+//     console.log("xd")
+// }
+// else{
+//     console.log("uwu")
+// }
 
-//Arrays
+// //Arrays
 
-let arreglo = [1,2,3,4]
+// let arreglo = [1,2,3,4]
 
-//objetos
+// //objetos
 
-let estudiante = {
-    id: "1",
-    nombreEstudiante: "Carlos",
-    edad: 25,
-}
+// let estudiante = {
+//     id: "1",
+//     nombreEstudiante: "Carlos",
+//     edad: 25,
+// }
 
-console.log(estudiante[nombreEstudiante])
+// let edadEstudiante = estudiante["edad"]
+
+// console.log(estudiante["nombreEstudiante"])
+
+
+//Ciclos y bucles 
+
+//while
+
+// while(edadEstudiante < 30){
+//     edadEstudiante++;
+//     console.log(edadEstudiante);
+//     console.log("solo while")
+//     if(edadEstudiante==27){
+//         break;
+//     }
+// }
+
+// //do while
+
+// do{
+//     edadEstudiante++;
+//     console.log(edadEstudiante)
+//     console.log("do  while")
+// }
+// while (edadEstudiante<30)
+
+// //ciclo for
+
+// for(let i =0; i <20 ; i++){
+//     if (i == 10){
+//         break
+//     }
+//     console.log(i)
+// }
+
+// for (zapato in tienda){
+        //este ciclo guarda los indices (in)
+// }
+
+// for (zapato of tienda){
+        //este ciclo guarda los valores en cada posicion (of)
+// }
