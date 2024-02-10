@@ -113,3 +113,27 @@
 // for (zapato of tienda){
         //este ciclo guarda los valores en cada posicion (of)
 // }
+
+//funciones
+
+// function sumar (a, b){
+//     const sumar = a + b;
+//     console.log(sumar)
+// }
+
+// sumar(6,10)
+
+// const restar = function(a,b){
+//     const restar = a-b;
+//     console.log(restar)
+// }
+
+// restar(5,10)
+
+// //funciones flecha
+
+// const saludar = (nombre) => {
+//     console.log(`Hola ${nombre}`)
+// }
+
+// saludar('alfonso')
