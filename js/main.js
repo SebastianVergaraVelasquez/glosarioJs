@@ -140,49 +140,113 @@
 
 //objetos
 
-class estudiante{
-    constructor(nombreEst, edadEst, telefonoEst){
-        this.nombre = nombreEst;
-        this.edad = edadEst;
-        this.telefono = telefonoEst;
-    }
-    mostrarInfo(){
-        console.log(`Hola ${this.nombre} tienes ${this.edad} años y tu telefono es ${this.telefono}`)
-    }
+// class estudiante{
+//     constructor(nombreEst, edadEst, telefonoEst){
+//         this.nombre = nombreEst;
+//         this.edad = edadEst;
+//         this.telefono = telefonoEst;
+//     }
+//     mostrarInfo(){
+//         console.log(`Hola ${this.nombre} tienes ${this.edad} años y tu telefono es ${this.telefono}`)
+//     }
 
-    set setTelefono(telNuevo){
-        this.telefono = telNuevo
-    }
+//     set setTelefono(telNuevo){
+//         this.telefono = telNuevo
+//     }
 
-    get getEdad(){
-        return this.edad
-    }
-}
+//     get getEdad(){
+//         return this.edad
+//     }
+// }
 
-//herencia
+// //herencia
 
-class profesor extends estudiante{
-    constructor(nombreEst, edadEst, telefonoEst, cargo){
-        super(nombreEst, edadEst, telefonoEst)
-        this.cargo = cargo
-    }
-    infoProfe (){
-        console.log(`Ademas su cargo es ${this.cargo}`)
-    }
-}
+// class profesor extends estudiante{
+//     constructor(nombreEst, edadEst, telefonoEst, cargo){
+//         super(nombreEst, edadEst, telefonoEst)
+//         this.cargo = cargo
+//     }
+//     infoProfe (){
+//         console.log(`Ademas su cargo es ${this.cargo}`)
+//     }
+// }
 
-const estudiante1 = new estudiante("Javier", 25, 312558886);
-const estudiante2 = new estudiante("Sofia",18,3218484);
+// const estudiante1 = new estudiante("Javier", 25, 312558886);
+// const estudiante2 = new estudiante("Sofia",18,3218484);
 
-estudiante1.mostrarInfo()
+// estudiante1.mostrarInfo()
 
-const profesor1 = new profesor("Marcos", 25, 69959, "Maestro de inglés")
-profesor1.mostrarInfo()
-profesor1.infoProfe()
+// const profesor1 = new profesor("Marcos", 25, 69959, "Maestro de inglés")
+// profesor1.mostrarInfo()
+// profesor1.infoProfe()
 
-//set y get
+// //set y get
 
-estudiante1.setTelefono = 315487
-console.log(estudiante1.telefono)
+// estudiante1.setTelefono = 315487
+// console.log(estudiante1.telefono)
 
-console.log(estudiante1.getEdad)
+// console.log(estudiante1.getEdad)
+
+
+//Métodos de las cadenas
+
+
+// endswith()  //devuelven true o false
+// startswith()
+// includes()
+
+// indexof("Raul") //Devuelve la posicion de la primera letra de la cadena ingresada (cuenta de cero)
+// lastindexof()
+// padStart()
+// padEnd()
+
+// split("separador que se escoja") //divide la cadena de acuerdo al separador y devuelve un array
+// substring(inicio, fin) //divide la cadena desde la posicion inicial a la final
+// toLowerCase()
+// toUpperCase()
+// trim() //elimina los espacios de inicio y fin
+// trimStart()
+// trimEnd()
+
+
+//Métodos de los array
+
+//transforman el array original
+
+// pop() //elimina el último elemento y lo retorna
+// shift() //elimina el primer elemento y lo retorna
+// push() //agrega elementos a un array, al final
+// reverse() //invierte el orden de los elementos 
+// unshift() //agrega elementos al inicio del array
+// sort() //Ordena alfabéticamente
+// splice(posicionInicio, cantidadDeElementosAEliminar, loQueQuieraAgregar, loquequieraagregar2)
+
+//devuelven un nuevo array
+
+// join(separador) //devuelve una cadena de texto con cada elemento juntado como una cadena
+// slice(posicionInicial, posicionFinal) //devuelve un string con los elementos en el rango seleccionado
+// indexof()
+// lastindexof()
+// includes()
+
+// repeticiones
+
+//El método forEach() ejecuta la función indicada una vez por cada elemento del array.
+
+// const materias = ["matematicas" , "materiales" , "historia", "lenguas"]
+
+// const resultado = materias.forEach(materia => {
+//     primeraLetra = materia.substring(0,1);
+//     if (primeraLetra == "m"){
+//         console.log(materia)
+//     }
+// })
+
+// //El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
+
+// const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+
+// const result = words.filter((word) => word.length > 6);
+
+// console.log(result);
+
