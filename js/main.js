@@ -250,3 +250,15 @@
 
 // console.log(result);
 
+
+// Métodos Math
+
+Math.sqrt()
+Math.cbrt()
+Math.max()
+Math.min()
+Math.random() //valor entre 0 y 1, *100
+Math.round() // entero más cercano
+Math.fround() // redondea decimales
+Math.floor()
+Math.trunc() // devuelve la parte entera
