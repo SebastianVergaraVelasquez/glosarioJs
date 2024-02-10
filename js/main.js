@@ -137,3 +137,52 @@
 // }
 
 // saludar('alfonso')
+
+//objetos
+
+class estudiante{
+    constructor(nombreEst, edadEst, telefonoEst){
+        this.nombre = nombreEst;
+        this.edad = edadEst;
+        this.telefono = telefonoEst;
+    }
+    mostrarInfo(){
+        console.log(`Hola ${this.nombre} tienes ${this.edad} años y tu telefono es ${this.telefono}`)
+    }
+
+    set setTelefono(telNuevo){
+        this.telefono = telNuevo
+    }
+
+    get getEdad(){
+        return this.edad
+    }
+}
+
+//herencia
+
+class profesor extends estudiante{
+    constructor(nombreEst, edadEst, telefonoEst, cargo){
+        super(nombreEst, edadEst, telefonoEst)
+        this.cargo = cargo
+    }
+    infoProfe (){
+        console.log(`Ademas su cargo es ${this.cargo}`)
+    }
+}
+
+const estudiante1 = new estudiante("Javier", 25, 312558886);
+const estudiante2 = new estudiante("Sofia",18,3218484);
+
+estudiante1.mostrarInfo()
+
+const profesor1 = new profesor("Marcos", 25, 69959, "Maestro de inglés")
+profesor1.mostrarInfo()
+profesor1.infoProfe()
+
+//set y get
+
+estudiante1.setTelefono = 315487
+console.log(estudiante1.telefono)
+
+console.log(estudiante1.getEdad)
